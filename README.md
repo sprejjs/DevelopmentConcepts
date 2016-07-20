@@ -9,3 +9,9 @@ Application design to display the 5 development concepts including:
 Application includes a short description of the concept as well as examples in Java and Swift programming languages.
 
 Everything required to run the application is included into this repository, just open it with Android Studio and click the run button.
+
+## Application mock
+![](mock.png)
+
+## Application screenshot
+![](screenshot.png)
