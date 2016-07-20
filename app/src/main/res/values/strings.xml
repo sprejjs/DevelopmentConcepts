@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">5 Development Concepts</string>
+    <string name="title_conditional_statement">Conditional Statement</string>
+    <string name="title_switch_statement">Switch Statement</string>
+    <string name="title_for_loop">For loop</string>
+    <string name="title_while_loop">While loop</string>
+    <string name="title_enum">Enumerated type</string>
+    <string name="explanation_conditional_statement">In computer science, conditional statements, conditional expressions and conditional constructs are features of a programming language, which perform different computations or actions depending on whether a programmer-specified boolean condition evaluates to true or false. Apart from the case of branch predication, this is always achieved by selectively altering the control flow based on some condition.</string>
+    <string name="explanation_switch_statement">In computer programming languages, a switch statement is a type of selection control mechanism used to allow the value of a variable or expression to change the control flow of program execution via a multiway branch.</string>
+    <string name="explanation_for_loop">In computer science a for-loop (or simply for loop) is a control flow statement for specifying iteration, which allows code to be executed repeatedly. The syntax of a for-loop is based on the heritage of the language and the prior programming languages it borrowed from, so programming languages that are descendants of or offshoots of a language that originally provided an iterator will often use the same keyword to name an iterator, e.g., descendants of ALGOL use "for", while descendants of Fortran use "do." There are other possibilities, for example COBOL which uses "PERFORM VARYING".</string>
+    <string name="explanation_while_loop">In most computer programming languages, a while loop is a control flow statement that allows code to be executed repeatedly based on a given boolean condition. The while loop can be thought of as a repeating if statement.</string>
+    <string name="explanation_enum">In computer programming, an enumerated type (also called enumeration or enum, or factor in the R programming language, and a categorical variable in statistics) is a data type consisting of a set of named values called elements, members, enumeral, or enumerators of the type. The enumerator names are usually identifiers that behave as constants in the language. An enumerated type can be seen as a degenerate tagged union of unit type. A variable that has been declared as having an enumerated type can be assigned any of the enumerators as a value. In other words, an enumerated type has values that are different from each other, and that can be compared and assigned, but are not specified by the programmer as having any particular concrete representation in the computer\'s memory; compilers and interpreters can represent them arbitrarily.</string>
+    <string name="next_concept">Next Concept</string>
+    <string name="previous_concept">Previous Concept</string>
+    <string name="example">Example</string>
+    <string name="programming_language_java">Java</string>
+    <string name="programming_language_swift">Swift</string>
+</resources>

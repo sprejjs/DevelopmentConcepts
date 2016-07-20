@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    tools:context="com.spreys.a5developmentconcepts.MainActivity">
+
+    <info.hoang8f.android.segmented.SegmentedGroup
+        xmlns:segmentedgroup="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/segmented2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        segmentedgroup:sc_tint_color="@color/colorPrimary"
+        segmentedgroup:sc_border_width="2dp"
+        segmentedgroup:sc_corner_radius="10dp">
+
+        <RadioButton
+            android:id="@+id/btn_java"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/programming_language_java"
+            android:checked="true"
+            style="@style/RadioButton" />
+
+        <RadioButton
+            android:id="@+id/btn_swift"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/programming_language_swift"
+            style="@style/RadioButton" />
+    </info.hoang8f.android.segmented.SegmentedGroup>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+    </android.support.v4.view.ViewPager>
+
+    <com.matthewtamlin.sliding_intro_screen_library.indicators.DotIndicator
+        android:id="@+id/dot_indicator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:unselectedDotColor="@color/colorPrimary"
+        app:selectedDotDiameter="16dp"
+        app:unselectedDotDiameter="8dp"
+        app:selectedDotColor="@color/colorPrimary"
+        app:spacingBetweenDots="10dp"
+        app:numberOfDots="5"
+        app:selectedDotIndex="0"/>
+
+    <LinearLayout
+        android:layout_margin="8dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn_previous"
+            android:enabled="false"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/previous_concept" />
+
+        <Button
+            android:id="@+id/btn_next"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/next_concept" />
+
+    </LinearLayout>
+
+</LinearLayout>
